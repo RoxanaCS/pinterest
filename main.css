@@ -1,12 +1,14 @@
+/*limpiamos el body*/
 body{
   margin: 0;
 }
+/*formato del menu del buscador*/
 .contenedor_principal{
   position: fixed;
   background: white;
   padding: 1em;
-  margin: 0;
 }
+/*posición y tamaño del logo de pinterest*/
 .logo{
   width: 2.5em;
   height: 2.5em;
@@ -14,6 +16,7 @@ body{
   top: 1em;
   left: 6em;
 }
+/*posición y formato de los íconos que van en el menu*/
 .fa-search{
   position: relative;
   right: 42em;
@@ -31,15 +34,6 @@ body{
   top: 0.05em;
   font-size: 1em;
   color: black;
-}
-.text{
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  left: 63em;
-  bottom: 2.2em;
-  font-size: 0.9em;
-  color: black;
-  font-weight: bold;
 }
 .fa-user{
   position: relative;
@@ -62,25 +56,39 @@ body{
   font-size: 1.5em;
   color: grey;
 }
+/*posición y formato del texto "all pins" que va en el menu*/
+.text{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 63em;
+  bottom: 2.2em;
+  font-size: 0.9em;
+  color: black;
+  font-weight: bold;
+}
+/*posición y formato del buscador*/
 .buscador{
   position: relative;
   left: 10em;
   height: 3em;
   color: grey;
   background: #D9DFE5;
+  /*bordes redondeados*/
   border-radius: 0.2em 0.2em 0.2em 0.2em;
   -moz-border-radius: 0.2em 0.2em 0.2em 0.2em;
   -webkit-border-radius: 0.2em 0.2em 0.2em 0.2em;
   border: 0 solid #000000;
 }
+/*formato del menu2*/
 .menu2{
   list-style: none;
   margin: 0 10em;
   padding: 0;
   line-height: 3.7em;
-  overflow: auto;
+  /*overflow: auto;*/
   /*outline: 1px solid red;*/
 }
+/*formato y posición de cada fila del menu2 */
 .menu2 li{
   /*outline: 1px solid red;*/
   margin:0 0.5em 0 0.5em;
@@ -89,15 +97,18 @@ body{
   text-align: center;
   font-family: 'Poppins', sans-serif;
   color: #33A462;
+  /*bordes redondeados*/
   background-image: url(wood_pattern.png);
   border-radius: 0.4em 0.4em 0.4em 0.4em;
   -moz-border-radius: 0.4em 0.4em 0.4em 0.4em;
   -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
 }
+/*formato y posición de las imagenes */
 .imagenes{
   float: left;
   margin: 12em 4em;
 }
+/*formato y posición de las primeras 4 imagenes que irán arriba */
 .foto1, .foto2, .foto3, .foto4{
   margin: 0 0.4em 0 0.5em;
   width: 16.5em;
@@ -106,6 +117,7 @@ body{
   -moz-border-radius: 1.2em 1.2em 1.2em 1.2em;
   -webkit-border-radius: 1.2em 1.2em 1.2em 1.2em;
 }
+/*formato y posición de las 4 imagenes restantes que irán abajo */
 .foto5, .foto6, .foto7, .foto8{
   margin: 2em 0.4em 0 0.5em;
   width: 16.5em;
